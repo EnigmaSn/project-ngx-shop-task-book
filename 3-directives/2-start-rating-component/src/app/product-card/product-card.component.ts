@@ -8,7 +8,6 @@ import { IProduct } from '../../../../../shared/mocks/3-directives/interfaces';
 })
 // @ts-ignore
 export class ProductCardComponent {
-	
 	@Input()
 	// @ts-ignore
 	public product!: IProduct = {} as IProduct;
